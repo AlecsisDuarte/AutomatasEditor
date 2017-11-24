@@ -1,5 +1,5 @@
 # Automatas Editor
-### A little text editor called TextIDE.
+##### A little text editor called TextIDE.
 This is a little project made for a school class.
 
 ## Contributors
