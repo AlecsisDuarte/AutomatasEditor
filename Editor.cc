@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
     auto app = Gtk::Application::create(argc, argv, "org.gtkm.textide");
     Glib::RefPtr<Builder> builder;
     try{
-        builder = Builder::create_from_file("editorView.glade");
+        builder = Builder::create_from_file("Views/editorWindow.glade");
     }
     catch (const Glib::FileError &ex)
     {
@@ -32,5 +32,7 @@ int main(int argc, char *argv[]){
     builder->get_widget_derived("window", txtWindow);
     app->run(*txtWindow);   
     delete txtWindow;
+    
+    cout << "Aplicación terminada" << endl;
     return 0;
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.20.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAboutDialog" id="autoresDialog">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Autores</property>
+    <property name="resizable">False</property>
+    <property name="type_hint">dialog</property>
+    <property name="program_name">TextIDE</property>
+    <property name="version">0.0.0.0.1</property>
+    <property name="comments" translatable="yes">Editor de texto creado para la clase de Automatas II impartida por la profesora Veronica Quintero</property>
+    <property name="website">https://github.com/AlecsisDuarte/AutomatasEditor.git</property>
+    <property name="website_label" translatable="yes">Codigo Base</property>
+    <property name="authors">Alexis Miguel Duarte Peña
+Christian Franco
+</property>
+    <property name="documenters">German Zambrano Quiñones
+Gabriela</property>
+    <property name="logo_icon_name">accessories-text-editor</property>
+    <property name="license_type">gpl-3-0</property>
+    <child internal-child="vbox">
+      <object class="GtkBox">
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox">
+            <property name="can_focus">False</property>
+            <property name="layout_style">end</property>
+            <child>
+              <object class="GtkButton" id="closeButton">
+                <property name="label">gtk-close</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_stock">True</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
