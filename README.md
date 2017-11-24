@@ -1,19 +1,19 @@
-#Automatas Editor
+# Automatas Editor
 A little text editor called TextIDE.
 This is a little project made for a school class.
 
-##Contributors
+## Contributors
  - Cristian Franco
  - German Zambrano
  - Gabriela
 
-##Todo
+## Todo
 - [x] Create the main window view
 - [ ] Color each line
 - [ ] Create every dialog
 - [ ] Detect errors in syntax
 
-##Running the editor
+## Running the editor
 
 In order to compile and run this application you must have `gtkmm-3.0` dependencies.
 The instrunctions of how to install them are in [Gtkmmm Pages](https://www.gtkmm.org/en/download.html) 
