@@ -10,7 +10,8 @@ int main(int argc, char *argv[]){
     auto app = Gtk::Application::create(argc, argv, "org.gtkm.textide");
     Glib::RefPtr<Builder> builder;
     try{
-        builder = Builder::create_from_file("Views/editorWindow.glade");
+        // builder = Builder::create_from_file("Views/editorWindow.glade");
+        builder = Builder::create_from_file("Views/editorWindowNoBar.glade");
     }
     catch (const Glib::FileError &ex)
     {

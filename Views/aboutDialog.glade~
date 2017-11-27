@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.20.0 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <object class="GtkAboutDialog" id="aboutDialog">
+  <object class="GtkAboutDialog" id="autoresDialog">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Autores</property>
     <property name="resizable">False</property>

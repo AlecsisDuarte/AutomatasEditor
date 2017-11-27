@@ -1,15 +1,15 @@
 # Automatas Editor
 ##### A little text editor called TextIDE.
-This is a little project made for a school class.
+This is a little project made for a school class called Lenguajes Automatas II teached by Veronica Quintero
 
 ## Contributors
  - Cristian Franco
  - German Zambrano
- - Gabriela
+ - Gabriela Vazquez
 
 ## Todo
 - [x] Create the main window view
-- [ ] Color each line
+- [x] Color each line
 - [ ] Create every dialog
 - [ ] Detect errors in syntax
 
