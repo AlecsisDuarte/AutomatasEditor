@@ -10,8 +10,12 @@ This is a little project made for a school class called Lenguajes Automatas II t
 ## Todo
 - [x] Create the main window view
 - [x] Color each line
-- [ ] Create every dialog
-- [ ] Detect errors in syntax
+- [x] Create every dialog
+- [x] Detect errors in syntax
+- [ ] Color a chunk of text inserted to the buffer
+- [ ] Enhance Manual dialog appearance
+- [ ] Create a class for every dialog (more objects)
+- [ ] Add documentation to the code
 
 ## Running the editor
 
